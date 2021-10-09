@@ -3,6 +3,12 @@ import appAction from '~/actions/appAction'
 import { BrowserRouter } from 'react-router-dom'
 import Router from '~/views/components/Router'
 
+declare global {
+  interface Window {
+    naver: any
+  }
+}
+
 export interface AppConfig {
   ajax: object
 }

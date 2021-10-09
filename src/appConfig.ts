@@ -2,6 +2,6 @@
 
 export default {
   ajax: {
-    baseURL: 'htts://sample.com/sample',
+    baseURL: '',
   }
 }

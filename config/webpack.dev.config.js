@@ -21,6 +21,11 @@ module.exports = merge(baseConfig, {
   },
   devServer: {
     port: PORT,
+    host: 'localhost',
+    disableHostCheck: true,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
     historyApiFallback: true,
     contentBase: path.resolve('public'),
   },
