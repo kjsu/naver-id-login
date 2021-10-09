@@ -18,7 +18,7 @@ function useNaverOAuth(onLoginSuccess: Function): NaverOAuth {
       isPopup: true,
       loginButton: {
         color: 'green',
-        height: 38,
+        height: 48,
         type: NaverLoginButtonIconType.ORIGINAL,
       },
     }
